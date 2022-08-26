@@ -1,0 +1,15 @@
+input[type=text], input[type=password], input[type=email]{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    font-size: 1.5rem;
+    border: 2px solid var(--backgroundTernary);
+    border-radius: 50px;
+    padding: .5rem 0;
+    text-align: center;
+    width: 60%;
+}
+::placeholder{
+    color: #cacac7; 
+}

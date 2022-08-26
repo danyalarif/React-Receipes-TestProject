@@ -1,0 +1,23 @@
+@import-normalize;
+@import 'Recipe.css';
+@import 'Recipe-list.css';
+@import 'button.css';
+@import 'ingredient-list.css';
+
+
+*,*::after,*::before{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html{
+    font-size: 20px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+ .mr-1{
+    margin-right: 5px;
+    margin-bottom: 5px;
+ }
